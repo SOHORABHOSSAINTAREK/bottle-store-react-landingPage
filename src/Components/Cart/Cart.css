@@ -1,0 +1,10 @@
+.cart-container img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
